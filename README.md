@@ -4,6 +4,8 @@
 
 Run large Mixture-of-Experts (MoE) language models on limited hardware (4GB VRAM GPU, 8GB RAM) through **tiered storage** and **dynamic expert caching**.
 
+> ⚠️ **Security**: This is a public repo. No IP addresses, passwords, API keys/tokens, or personal identifying information should be committed. See [SECURITY.md](SECURITY.md) for details.
+
 ## The Problem
 
 MoE LLMs (Qwen3.5-35B-A3B, DeepSeek-V3/R1) have 30B–671B total parameters, far exceeding typical consumer GPU VRAM. Standard approaches require expensive hardware upgrades.
